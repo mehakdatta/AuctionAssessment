@@ -34,4 +34,8 @@ export class ProductDetailsComponent {
  viewProduct(sellerID:number){
   this.routes.navigate(['view-product',sellerID]);
 }
+
+viewBid(sellerID:number){
+  this.routes.navigate(['view-bid',sellerID]);
+}
  }

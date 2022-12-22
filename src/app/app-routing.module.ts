@@ -9,6 +9,7 @@ import { SellerDetailsComponent } from './seller-details/seller-details.componen
 import { SellerlistComponent } from './sellerlist/sellerlist.component';
 import { UpdateCustomerComponent } from './update-customer/update-customer.component';
 import { UpdateProductComponent } from './update-product/update-product.component';
+import { ViewBidComponent } from './view-bid/view-bid.component';
 import { ViewProductComponent } from './view-product/view-product.component';
 
 const routes: Routes = [
@@ -19,6 +20,7 @@ const routes: Routes = [
   {path:'update-product/:sellerID', component:UpdateProductComponent},
   {path:'seller-details/:sellerID', component:SellerDetailsComponent},
   {path:'view-product/:sellerID', component:ViewProductComponent},
+  {path:'view-bid/:sellerID', component:ViewBidComponent},
   {path:'insert-customer', component:InsertCustomerComponent},
   {path:'customer', component:CustomerListComponent},
   {path:'view-customer/:customerID', component:CustomerViewComponent},

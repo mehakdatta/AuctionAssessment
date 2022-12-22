@@ -8,7 +8,7 @@ import { Customer } from './customer';
 })
 
 export class CustomerService {
-    private baseURL="http://localhost:8091/rest/onlineauction/customer";
+    private baseURL="http://localhost:8081/customer";
     
     constructor(private httpClient: HttpClient) { }
   

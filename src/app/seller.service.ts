@@ -8,8 +8,11 @@ import { Seller } from './seller';
 })
 export class SellerService {
 
-  private baseURL="http://localhost:8091/rest/onlineauction/seller";
-  private baseURL1="http://localhost:8091/rest/onlineauction/seller/product"
+  // private baseURL="http://localhost:8091/rest/onlineauction/seller";
+  // private baseURL1="http://localhost:8091/rest/onlineauction/seller/product"
+
+  private baseURL="http://localhost:8081/seller";
+  private baseURL1="http://localhost:8081/seller/product";
   constructor(private httpClient: HttpClient) { }
 
   getSellerList(): Observable<Seller[]>{

@@ -14,6 +14,7 @@ import { InsertCustomerComponent } from './insert-customer/insert-customer.compo
 import { CustomerListComponent } from './customer-list/customer-list.component';
 import { CustomerViewComponent } from './customer-view/customer-view.component';
 import { UpdateCustomerComponent } from './update-customer/update-customer.component';
+import { ViewBidComponent } from './view-bid/view-bid.component';
 
 
 @NgModule({
@@ -29,6 +30,7 @@ import { UpdateCustomerComponent } from './update-customer/update-customer.compo
     CustomerListComponent,
     CustomerViewComponent,
     UpdateCustomerComponent,
+    ViewBidComponent,
    
   ],
   imports: [
